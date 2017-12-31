@@ -1,1 +1,1 @@
-*who*|*what*|*where*|*when*|*which*|*how*==say "$(jv_pg_wa_search)"
+*who*|*what*|*where*|*when*|*which*|*how*==say "$(jv_pg_wa_search)" > /dev/tty

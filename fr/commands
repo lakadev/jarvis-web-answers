@@ -1,1 +1,1 @@
-*qui *|*que *|*quoi *|*combien *|*où *|*quand *|*quel *|*quels *|*quelle *|*quelles *==say "$(jv_pg_wa_search)"
+*qui *|*que *|*quoi *|*combien *|*où *|*quand *|*quel *|*quels *|*quelle *|*quelles *==say "$(jv_pg_wa_search)" > /dev/tty
