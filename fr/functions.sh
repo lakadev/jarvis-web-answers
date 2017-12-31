@@ -11,8 +11,8 @@
 
 pg_web_answers_lang () {
    case "$1" in
-	wa_preparing_phrase) echo "I check on the Internet...";;
-	wa_not_found) echo "Sorry, I did not find the answer.";;
-	wa_source) echo "according to $2";;
+	wa_preparing_phrase) echo "Je recherche sur internet...";;
+	wa_not_found) echo "Désolé, je n'ai pas trouvé la réponse.";;
+	wa_source) echo "d'après $2";;
    esac
 } 

@@ -1,1 +1,1 @@
-*HELLO WORLD*==say "Hello World"
+*who*|*what*|*where*|*when*|*which*|*how*==say "$(jv_pg_wa_search)"
