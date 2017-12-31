@@ -21,17 +21,20 @@ Vous: Quelle est la hauteur de la tour Eiffel ?
 Jarvis: Je recherche sur internet...
 Jarvis: 300m d'après Google
 
-Vous: Combien pèse un litre de mercure ?
+Vous: Quel est le poids d'un litre de mercure ?
 Jarvis: Je recherche sur internet...
 Jarvis: La réponse est environ 13,5 kg d'après Wolfram
 ```
 
 Les questions doivent être très précises, par exemple :
-"Combien pèse une baleine ?" => **KO**
-"Combien pèse une baleine bleue ?" => **OK**
+
+ - "Combien pèse une baleine ?" => **KO**
+ - "Combien pèse une baleine bleue ?" => **OK**
+
 ou encore
-"Quelle est la vitesse du son ?" => **KO**
-"Quelle est la vitesse du son dans l'air ?" => **OK**
+
+ - "Quelle est la vitesse du son ?" => **KO**
+ - "Quelle est la vitesse du son dans l'air ?" => **OK**
 
 ## Prérequis
 
@@ -102,7 +105,7 @@ It is better to put this plugin at the end of the list of Jarvis plugins to avoi
 ```
 You: How tall is the Eiffel Tower?
 Jarvis: I check on the Internet...
-Jarvis: 300m according to Google
+Jarvis: 300 m, 324 m to tip according to Google
 
 You: How much does a liter of mercury weigh?
 Jarvis: I check on the Internet...
@@ -110,11 +113,10 @@ Jarvis: The answer is about 13.5 kg according to Wolfram
 ```
 
 The questions should be very precise, for example:
-"How much does a whale weigh?" => **KO**
-"How much does a blue whale weigh?" => **OK**
-or
-"What is the speed of sound?" => **KO**
-"What is the speed of sound in the air?" => **OK**
+
+ - "How much does a whale weigh?" => **KO**
+ - "How much does a blue whale weigh?" => **OK**
+
 
 ## Prerequisite
 
