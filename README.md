@@ -69,7 +69,7 @@ Il est possible d'utiliser dans les scripts les fonctions utilitaires suivantes 
 
 2) Déclarer le moteur dans le fichier de configuration
 ```
-jv_pg_wa_engines[2]="reponse-a-tout.sh"
+	jv_pg_wa_engines[2]="reponse-a-tout.sh"
 ```
 
 Les moteurs seront appelés dans l'ordre du tableau jusqu'à ce que l'un d'eux renvoi une réponse non vide.
@@ -146,13 +146,13 @@ It is possible to use the following utility functions in the scripts:
 ```
 	uriencode # encode the string passed in parameter for use in a web request
 	jv_pg_wa_pup_parser # selects elements in an html string using classic CSS selectors.
-    translate_to_en # translates a string of the current Jarvis language into English
-    translate_from_en # translate a string from English to the current Jarvis language
+	translate_to_en # translates a string of the current Jarvis language into English
+	translate_from_en # translate a string from English to the current Jarvis language
 ```
 
 2) Declare the engine in the configuration file
 ```
-    jv_pg_wa_engines [2] = "reponse-a-tout.sh"
+	jv_pg_wa_engines [2] = "reponse-a-tout.sh"
 ```
 
 The engines will be called in the order defined in the array until one of them returns a non-empty response.
